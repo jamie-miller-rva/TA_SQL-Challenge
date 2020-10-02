@@ -143,6 +143,22 @@ CREATE TABLE salaries (
 
 -- Update github (git add ., git commit -m"",git push)
 
+-- Import data from csv files in Data Folder
+-- Use the GUI feature by right clicking the specific table
+-- And select Import/Export and make selections to import specific csv file
+-- (verify import using GUI View/Edit Data - all rows)
+
+-- departments 
+-- dept_emp
+-- dept_manager
+-- employees
+-- salaries
+-- titles
+
+---------------------------------------------------------------------------------------
+-- END of Schemas file
+-- Data Analysis found in Queries_Pewlett_Hackard_Employees.sql
+
 
 
 
