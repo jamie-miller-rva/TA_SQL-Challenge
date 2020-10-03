@@ -94,3 +94,13 @@ SELECT	last_name, COUNT(last_name)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
+
+-- Epilogue
+-- "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+SELECT 	emp_no, 
+		last_name,
+		first_name, 
+		hire_date
+FROM employees
+WHERE emp_no = 499942
+FROM 
