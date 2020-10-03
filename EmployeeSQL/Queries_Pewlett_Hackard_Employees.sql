@@ -103,4 +103,3 @@ SELECT 	emp_no,
 		hire_date
 FROM employees
 WHERE emp_no = 499942
-FROM 
